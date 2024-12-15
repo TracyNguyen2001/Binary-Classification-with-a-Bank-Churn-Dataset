@@ -1,7 +1,9 @@
-# Customer Churn Prediction Using XGBoost
+# Customer Churn Prediction Using Python
 
 ## Project Overview
-This project focuses on predicting customer churn - a critical metric for many businesses, especially in the banking and telecom sectors. We use an XGBoost classifier, a powerful machine learning algorithm, to predict the likelihood of customers leaving a company.
+
+The dataset used in this project contains various customer attributes, such as age, vehicle ownership, driving experience, past accidents, and credit score,DUIs along with a target variable indicating whether the customer waived their car insurance policy.
+
 
 ## Data Description
 The dataset used in this project contains various customer attributes, such as age, balance, and number of products used, along with a target variable indicating whether the customer has exited (churned) or not.
@@ -14,30 +16,28 @@ The dataset used in this project contains various customer attributes, such as a
 - `README.md`: Documentation of the project.
 
 ## Key Steps
-1. **Data Preprocessing**: Cleaning and encoding of the data, making it suitable for model training.
-2. **Exploratory Data Analysis (EDA)**: Analyzing the data to understand patterns and relationships.
-3. **Feature Engineering**: Selecting and transforming features for model training.
-4. **Model Training**: Building and training an XGBoost classifier.
-5. **Model Evaluation**: Evaluating the model's performance using accuracy and other metrics.
-6. **Feature Importance Analysis**: Understanding which features are most impactful in predicting churn.
-7. **Predictions**: Generating churn predictions on the test dataset.
+1. Data Preprocessing: Cleaning and encoding of the data, making it suitable for model training.
+2. Exploratory Data Analysis (EDA): Analyzing the data to understand patterns and relationships, such as the impact of driving experience and credit score on waivers.
+3. Feature Engineering: Selecting and transforming features for model training, such as categorizing credit scores or vehicle types.
+4. Model Training: Building and training an XGBoost classifier.
+5. Model Evaluation: Evaluating the model's performance using metrics like accuracy, precision, and recall.
+6. Feature Importance Analysis: Understanding which features are most impactful in predicting insurance waivers.
+7. Predictions: Generating churn predictions on the test dataset.
 
 ## Technologies Used
 - Python
 - Pandas
 - Matplotlib and Seaborn for visualizations
 - Scikit-learn for data preprocessing and model evaluation
-- XGBoost for the prediction model
+- SAS for the prediction model
 
 ## How to Run
 To run the analysis and model training:
-1. Ensure you have Python installed along with the required libraries.
+1. Ensure you have Python installed along with the required libraries.or can download Jupyter Notebook/Google Colab
 2. Clone this repository.
 3. Open and run the `Customer Churn Prediction Using XGBoost.ipynb` notebook in a Jupyter environment.
 
 ## Author
-Zain Haidar
-LinkedIn: https://www.linkedin.com/in/zain-haidar/
+Yen Nguyen
+LinkedIn: www.linkedin.com/in/tracyyennguyen
 
-## Acknowledgements
-Walter Reade, Ashley Chow. (2024). Binary Classification with a Bank Churn Dataset . Kaggle. https://kaggle.com/competitions/playground-series-s4e1
